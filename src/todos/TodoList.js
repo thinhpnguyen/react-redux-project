@@ -6,7 +6,6 @@ import TodoListItem from "./TodoListItem.js";
 import { removeTodo } from "./actions.js";
 
 const TodoList = ({ todos = [], onRemovePressed }) => {
-  console.log("here is todo", todos);
   return (
     <div className="list-wrapper">
       <NewTodoForm />
